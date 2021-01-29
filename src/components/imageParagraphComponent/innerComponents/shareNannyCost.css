@@ -1,0 +1,35 @@
+.share-nanny-cost-h2 {
+  height: 64px;
+  margin: 0 0 20px 0;
+  width: 250px;
+}
+
+.share-nanny-cost-p {
+  height: auto;
+  margin: 0 0 40px 0;
+  width: 444px;
+}
+
+.share-nany-cost-link {
+  color: #5E20A4;
+}
+
+@media screen and (max-width: 415px) {
+  .share-nanny-cost-h2 {
+    text-align: center;
+    width: 90vw;
+  }
+
+  .share-nanny-cost-p {
+    text-align: center;
+    width: 90vw;
+  }
+
+  .nanny-cost-section-image {
+    width: 100vw;
+  }
+
+  .share-nany-cost-link {
+    text-align: center;
+  }
+}
