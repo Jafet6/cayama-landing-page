@@ -1,0 +1,24 @@
+.middle-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #021F54;
+  height: 200px;
+  width: 100vw;
+  font-family: "Helvetica Bold";
+  color: #FFFFFF
+}
+
+.middle-section-p {
+  font-size: 2.5rem;
+  width: 55vw;
+  text-align: center;
+}
+
+.phrase-color-1 {
+  color: #FF8800
+}
+
+.phrase-color-2 {
+  color: #A0A09F
+}

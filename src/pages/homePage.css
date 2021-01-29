@@ -1,0 +1,51 @@
+.home-page-image {
+  background-image: url('../images/homePage/Image.svg'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+  height: 616px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.why-cayama-heading {
+  margin: 30px;
+  text-align: center;
+}
+
+.main-after-image {
+  position: absolute;
+  top: 616px;
+}
+
+.home-page-container {
+  left: 0px;
+  position: relative;
+  top: 0px;
+}
+
+.head-line-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 5vh 0 0 5vw;
+}
+
+@media screen and (max-width: 415px) {
+  .head-line-container {
+    margin: 10vh 0 0 0;
+  }
+
+  .home-page-image {
+    background-image: url('../images/homePage/mobileImage.svg'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    height: 540px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+  }
+
+  .main-after-image {
+    position: absolute;
+    top: 540px;
+  }
+}

@@ -1,0 +1,15 @@
+.raise-sell-button {
+  width: 360px;
+  color: #FFFFFF;
+  background-color: rgb(255, 136, 57);
+  height: 55px;
+  font-weight: 800;
+  font-size: 1.1rem;
+  border-radius: 4px;
+}
+
+.raise-sell-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px 0;
+}
