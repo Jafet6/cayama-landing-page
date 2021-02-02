@@ -4,12 +4,16 @@
 }
 
 .become-a-nanny-share {
-  background-color: #00C88C;
+  background-color: rgb(255, 136, 57);
   border-radius: 4px;
   height: 44px;
   left: 1105px;
   top: 16px;
   width: 234px;
+}
+
+.header-link {
+  margin: 15px;
 }
 
 .become-a-nanny-share-title {

@@ -22,3 +22,10 @@
 .phrase-color-2 {
   color: #A0A09F
 }
+
+@media screen and (max-width: 415px) {
+  .middle-section-p {
+    font-size: 1.5rem;
+    width: 90vw;
+  }
+}

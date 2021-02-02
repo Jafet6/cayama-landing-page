@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './footer.css';
 import union from '../images/homePage/union.svg'
 import logo from '../images/homePage/logo.svg';
@@ -11,19 +12,19 @@ import Divider from '../components/divider/divider';
 function Footer() {
   return (
     <footer className="footer-container">
-      <h2 className="footer-h2">Become a nanny share host</h2>
-      <span className="footer-span">Takes less than 5 minutes to get started</span>
+      <h2 className="footer-h2">Inscreva-se e seja um dos primeiros lojistas!</h2>
+      <span className="footer-span">Leva menos de 1 minuto</span>
       <button className="footer-btn">
-        <div className="footer-btn-container">
+        <HashLink to='/#leedForm' className="footer-btn-container">
           <img src={union} alt='calendar' />
           <div className="footer-btn-text">
-            <span>Create Your Nanny Share</span>
-            <span>Takes less than 5 minutes</span>
+            <span>Cadastre-se e receba novidades</span>
+            <span>Leva menos de 1 minuto</span>
           </div>
-        </div>
+        </HashLink>
       </button>
-      <Link className="footer-link-purple" to='/8'>Or browse local nanny-shares</Link>
-      <div className="footer-bottom">
+      <HashLink className="footer-link-purple" to='/#leedForm'>Inscreva-se</HashLink>
+      {/* <div className="footer-bottom">
         <div className="footer-hapus-logo">
           <img src={logo} alt='Hapu`s logo' />
         </div>
@@ -47,8 +48,8 @@ function Footer() {
       </div>
       <div className="footer-divider">
         <Divider />
-      </div>
-      <p className="copyright">Copyright © 2017 Hapu PTY Limited All rights reserved</p>
+      </div> */}
+      <p className="copyright">Copyright © 2021 Cayama Limited All rights reserved</p>
     </footer>
   );
 }

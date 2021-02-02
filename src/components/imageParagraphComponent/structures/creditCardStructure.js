@@ -12,7 +12,7 @@ const creditCardStructure = {
   link: {
     className: 'share-nany-cost-link',
     text: 'Ready to get started?',
-    href: '/7',
+    href: '/#leedForm',
   },
   image: {
     className: 'nanny-cost-section-image',

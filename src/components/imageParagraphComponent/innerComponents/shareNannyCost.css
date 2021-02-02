@@ -11,13 +11,13 @@
 }
 
 .share-nany-cost-link {
-  color: #5E20A4;
+  color: #021F54;
 }
 
 @media screen and (max-width: 415px) {
   .share-nanny-cost-h2 {
     text-align: center;
-    width: 90vw;
+    width: 95vw;
   }
 
   .share-nanny-cost-p {
@@ -26,7 +26,7 @@
   }
 
   .nanny-cost-section-image {
-    width: 100vw;
+    width: 95vw;
   }
 
   .share-nany-cost-link {

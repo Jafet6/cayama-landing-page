@@ -8,7 +8,8 @@ import NannyAvailable from '../components/nannyAvailable/nannyAvailable';
 import ImageParagraphComponent from '../components/imageParagraphComponent/imageParagraphComponent';
 // import StandardSection from '../components/standardSection/standardSection';
 import Divider from '../components/divider/divider';
-import NewsLetter from '../components/newsletter/newsletter';
+import LeedForm from '../components/leedForm/leedForm';
+import VideoLogo from '../components/videoLogo/videoLogo';
 import RaiseSellButton from '../components/raiseSellButton/raiseSellButton';
 import marketingStructure from '../components/imageParagraphComponent/structures/marketingStructure';
 import creditCardStructure from '../components/imageParagraphComponent/structures/creditCardStructure';
@@ -23,7 +24,7 @@ import MiddleSection from '../components/middleSection/middleSection';
 function HomePage() {
   return (
     <>
-      <Head title='Hapu' />
+      <Head title='Cayama' />
       <div className='home-page-image' />
       <div className='home-page-container'>
         <Header />
@@ -32,7 +33,7 @@ function HomePage() {
             <HeadLine />
           </div>
           <div className='main-after-image'>
-            <NannyAvailable />
+            {/* <NannyAvailable /> */}
             <h2 className="why-cayama-heading">Porque a Cayama?</h2>
             <ImageParagraphComponent 
               link={marketingStructure.link}
@@ -93,6 +94,8 @@ function HomePage() {
               image={comingSoonStructure.image}
               reverse={true}
             /> */}
+            <VideoLogo />
+            <LeedForm />
             <Footer />
           </div>
         </main>

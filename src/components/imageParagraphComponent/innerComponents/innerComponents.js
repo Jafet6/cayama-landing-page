@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './shareNannyCost.css';
 import './sharePayment.css';
 import './frameworkLongTerm.css';
@@ -35,11 +36,20 @@ function ImageParagraphLink({ className, text, href }) {
   );
 }
 
+function ImageParagraphHashLink({ className, text, href }) {
+  return (
+    <div>
+      <HashLink className={className} to={href}>{text}</HashLink>
+    </div>
+  );
+}
+
 
 
 export {
   ImageParagraphParagraph,
   ImageParagraphTitle,
   ImageParagraphImage,
-  ImageParagraphLink
+  ImageParagraphLink,
+  ImageParagraphHashLink,
 };
