@@ -96,6 +96,10 @@
     margin: 40px 0 30px 0;
   }
 
+  .copyright {
+    text-align: center;
+  }
+
   .footer-links-container {
     flex-wrap: wrap;
     justify-content: space-around;
