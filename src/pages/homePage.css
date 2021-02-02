@@ -1,5 +1,5 @@
 .home-page-image {
-  background-image: url('../images/homePage/Image.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+  background-image: url('../images/homePage/Image.png');
   height: 616px;
   left: 0;
   position: absolute;
@@ -37,7 +37,7 @@
   }
 
   .home-page-image {
-    background-image: url('../images/homePage/Image.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    background-image: url('../images/homePage/Image.png');
     height: 540px;
     left: 0px;
     position: absolute;
