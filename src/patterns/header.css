@@ -21,6 +21,7 @@
 }
 
 .nav-container {
+  margin: 10px 0 0 0;
   display: flex;
   justify-content: space-between;
 }
@@ -30,6 +31,16 @@
   display: flex;
   margin: 0 10px 0 10px;
   width: 50vw;
+}
+
+.header-logo-cayama {
+  color: #021F54;
+  font-size: 2rem;
+  font-family: arial black,sans-serif;
+}
+
+.header-logo-y {
+  color: #ff8800;
 }
 
 .right-nav {

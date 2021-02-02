@@ -10,7 +10,7 @@ function Header() {
       <nav className="nav-container">
         <div className="left-nav">
           <div className="shape-container">
-            <img src={shape} alt="Hapu Logo" />
+            <span className="header-logo-cayama">ca<span className="header-logo-y">y</span>ama</span>
           </div>
           <div className="left-links">
             <div>
