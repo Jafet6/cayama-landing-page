@@ -27,25 +27,36 @@
   .image-paragraph-section {
     margin: 10vw 0 10vw 0;
     top: 820px;
+    width: 100vw;
   }
 
   .image-paragraph-content {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 100vw;
   }
 
   .image-paragraph-content-reverse {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100vw;
   }
 
   .image-paragraph-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
-    width: 90vw;
+    align-items: center;
+    /* margin-top: 20px; */
+    margin: 20px 0px 0px 0px;
+    width: 100vw;
+  }
+
+  .image-paragraph-icon {
+    width: 95vw;
+    justify-content: center;
+    display: flex;
   }
 }

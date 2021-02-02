@@ -1,0 +1,32 @@
+.logo-cayama {
+  color: #021F54;
+  font-size: 6rem;
+  font-family: arial black,sans-serif;
+}
+
+.logo-y {
+  color: #ff8800;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.slogan-container {
+  color: #ff8800;
+  font-size: 0.85rem;
+  font-weight: bold;
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+  margin: -15px 0 0 10px;
+}
+
+@media screen and (max-width: 415px) {
+  .logo-cayama {
+    font-size: 6rem;
+  }
+
+}

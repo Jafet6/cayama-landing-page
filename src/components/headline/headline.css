@@ -1,13 +1,19 @@
 .h1-home-page {
   color: #FFFFFF;
-  height: 96px;
-  width: 490px;
+  width: 350px;
+  font-size: 3rem;
+  margin: 0 0 40px 0;
 }
 
 .p-home-page {
   color: #FFFFFF;
   height: 48px;
-  width: 584px;
+  width: 450px;
+  margin: 0 0 40px 0;
+}
+
+.headline-orange-color {
+  color: #FF8800;
 }
 
 .playIcon-container {
@@ -30,7 +36,8 @@
 }
 
 .head-line-left {
-  width: 584px;
+  margin: 40px 0 0 0;
+  width: 450px;
 }
 
 .head-line-content {

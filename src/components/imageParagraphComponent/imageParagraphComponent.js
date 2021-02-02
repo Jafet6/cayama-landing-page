@@ -3,7 +3,7 @@ import './imageParagraphComponent.css';
 import {
   ImageParagraphTitle,
   ImageParagraphImage,
-  ImageParagraphLink,
+  ImageParagraphHashLink,
   ImageParagraphParagraph
 } from './innerComponents/innerComponents';
 
@@ -11,7 +11,7 @@ function ImageParagraphComponent({ title, paragraph, link, image, reverse = fals
   return (
     <section className="image-paragraph-section">
       <div className={reverse ? 'image-paragraph-content-reverse' : 'image-paragraph-content'}>
-        {image.icon}
+        <div className="image-paragraph-icon">{image.icon}</div>
         <div className="image-paragraph-description">
           <ImageParagraphTitle 
             className={title.className}
@@ -21,7 +21,7 @@ function ImageParagraphComponent({ title, paragraph, link, image, reverse = fals
             className={paragraph.className}
             text={paragraph.text}
           />
-          <ImageParagraphLink
+          <ImageParagraphHashLink
             className={link.className}
             text={link.text}
             href={link.href}

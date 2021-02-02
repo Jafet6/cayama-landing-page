@@ -12,7 +12,7 @@ const onlineStoreStructure = {
   link: {
     className: 'share-nany-cost-link',
     text: 'Ready to get started?',
-    href: '/8',
+    href: '/#leedForm',
   },
   image: {
     className: 'share-payment-section-image',

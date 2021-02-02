@@ -9,7 +9,7 @@
 }
 
 .footer-btn {
-  background-color: #5E20A4;
+  background-color:rgb(255, 136, 57);
   border-radius: 4px;
   color: #FFFFFF;
   height: 68px;
@@ -17,6 +17,8 @@
 }
 
 .footer-btn-container {
+  color: #FFFFFF;
+  text-decoration: none;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -30,7 +32,7 @@
 }
 
 .footer-link-purple {
-  color: #5E20A4;
+  color: #021F54;
   margin: 20px;
 }
 
@@ -108,5 +110,10 @@
 
   .footer-divider {
     display: flex;
+  }
+
+  .footer-h2 {
+    width: 95vw;
+    text-align: center;
   }
 }

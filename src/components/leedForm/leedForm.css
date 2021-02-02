@@ -1,0 +1,102 @@
+.leedForm-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: #021F54;
+  padding: 5vw;
+}
+
+.leedForm-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leedForm-input {
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid #DFDFDF;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 7px;
+  padding-left: 5px;
+  width: 232px;
+}
+
+.leedForm-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 75vw;
+}
+
+.leedForm-input-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6vw;
+  width: 75vw;
+}
+
+.leedForm-send-button {
+  background-color:rgb(255, 136, 57);
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  height: 48px;
+  margin: 7px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.leedForm-title {
+  color: #FFFFFF;
+  margin: 0 0 2vw 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.leedForm-p {
+  color: #FFFFFF;
+}
+
+.leedForm-p {
+  text-align: center;
+}
+
+@media screen and (max-width: 415px) {
+  .leedForm-text-content {
+    width: 85vw;
+  }
+
+  .leedForm-title {
+    margin: 0 0 20px 0;
+  }
+
+  .leedForm-input-container {
+    width: 90vw;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leedForm-input, .leedForm-send-button {
+    width: 85vw;
+  }
+
+  .leedForm-content {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leedForm-input-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

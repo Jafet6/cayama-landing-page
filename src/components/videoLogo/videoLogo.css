@@ -1,0 +1,31 @@
+.video-logo-container {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 100vw;
+}
+
+.video-logo-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.video-logo-video {
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+}
+
+@media screen and (max-width: 415px) {
+  .video-logo-content {
+    /* flex-direction: column; */
+    flex-wrap: wrap-reverse;
+    width: 80vw;
+  }
+  .video-logo-video {
+    margin: 20px 0 0 0;
+  }
+}
