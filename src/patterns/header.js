@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './header.css';
+import { HashLink } from 'react-router-hash-link';
 import shape from '../images/homePage/shape.svg';
 
 
@@ -22,7 +23,7 @@ function Header() {
         </div>
         <div className="right-nav">
           <div className="right-links">
-            <button className="become-a-nanny-share"><h5 className="become-a-nanny-share-title">Inscreva-se</h5></button>
+            <HashLink to="/#leedForm"><button className="become-a-nanny-share"><h5 className="become-a-nanny-share-title">Inscreva-se</h5></button></HashLink>
             {/* <Link className='header-link' to='/4'>Sign in</Link> */}
           </div>
         </div>

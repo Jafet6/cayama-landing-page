@@ -12,7 +12,7 @@ import Divider from '../components/divider/divider';
 function Footer() {
   return (
     <footer className="footer-container">
-      <h2 className="footer-h2">Inscreva-se e seja um dos primeiros lojistas!</h2>
+      <h2 className="footer-h2">Inscreva-se</h2>
       <span className="footer-span">Leva menos de 1 minuto</span>
       <button className="footer-btn">
         <HashLink to='/#leedForm' className="footer-btn-container">

@@ -7,11 +7,11 @@ const onlineStoreStructure = {
   },
   paragraph: {
     className: 'share-nanny-cost-p',
-    text: 'Ter uma loja online totalmente personalizada com a sua cara e o seu estilo nunca foi tão fácil, rápido e barato. Ah, e você pode adicionar quantos produtos quiser em sua loja'
+    text: ['Ter uma loja online totalmente ', <span className='grey-p'>personalizada</span>, ' com a sua cara e o seu estilo nunca foi tão fácil, rápido e barato. Ah, e você pode adicionar quantos ', <span className='grey-p'>produtos</span>, ' quiser em sua loja']
   },
   link: {
     className: 'share-nany-cost-link',
-    text: 'Ready to get started?',
+    text: 'Está pronto para vender mais?',
     href: '/#leedForm',
   },
   image: {

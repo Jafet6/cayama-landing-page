@@ -1,12 +1,12 @@
 .h1-home-page {
-  color: #FFFFFF;
+  color: black;
   width: 350px;
   font-size: 3rem;
   margin: 0 0 40px 0;
 }
 
 .p-home-page {
-  color: #FFFFFF;
+  color: black;
   height: 48px;
   width: 450px;
   margin: 0 0 40px 0;
@@ -36,7 +36,7 @@
 }
 
 .head-line-left {
-  margin: 40px 0 0 0;
+  margin: -150px 0 0 0;
   width: 450px;
 }
 
@@ -60,13 +60,24 @@
   width: 246px;
 }
 
+.greeting-image {
+  margin: 0 0 0 90px;
+}
+
 @media screen and (max-width: 415px) {
   .greeting-image {
     display: none;
   }
 
+  .headline-left-content {
+    padding: 5px 5px 1px 5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+  }
+
   .head-line-left {
     width: 92vw;
+    margin: 0;
   }
 
   .h1-home-page {
