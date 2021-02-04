@@ -7,11 +7,11 @@ const marketingStructure = {
   },
   paragraph: {
     className: 'share-nanny-cost-p',
-    text: 'Aumente as suas vendas e a visibilidade da sua marca disponibilizando seus produtos para que influenciadores digitais escolhidos por você possam divulgá-los em suas redes sociais'
+    text: [<span className='grey-p'>Aumente as suas vendas</span>, " e a visibilidade da sua marca disponibilizando seus produtos para que ", <span className='orange-p'>influenciadores digitais</span>, " escolhidos por você possam divulgá-los em suas redes sociais"]
   },
   link: {
     className: 'share-nany-cost-link',
-    text: 'Ready to get started?',
+    text: 'Está pronto para vender mais?',
     href: '/#leedForm',
   },
   image: {

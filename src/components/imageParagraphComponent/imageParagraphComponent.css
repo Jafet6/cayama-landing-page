@@ -23,6 +23,15 @@
   margin: 0 0 0 60px;
 }
 
+.orange-p {
+  color: #FF8800;
+}
+
+.grey-p {
+  color: #2F2E2E;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 415px) {
   .image-paragraph-section {
     margin: 10vw 0 10vw 0;

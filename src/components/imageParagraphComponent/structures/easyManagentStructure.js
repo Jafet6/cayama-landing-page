@@ -11,7 +11,7 @@ const easyManagentStructure = {
   },
   link: {
     className: 'share-nany-cost-link',
-    text: 'Ready to get started?',
+    text: 'Está pronto para vender mais?',
     href: '/#leedForm',
   },
   image: {

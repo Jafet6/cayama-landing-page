@@ -60,7 +60,7 @@ function HeadLine() {
         <div className="head-line-content">
           <div className="head-line-left">
             <div>
-            <div>
+            <div className="headline-left-content">
               <h1
                 data-testid="h1-home-page"
                 className="h1-home-page"
