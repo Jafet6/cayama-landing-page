@@ -2,19 +2,22 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './leedForm.css';
 
-function LeedForm() {
+function LeedForm({ path }) {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('')
-  const [instagram, setInstagram] = useState('');
   const [wpp, setWpp] = useState('')
+  const [instagram, setInstagram] = useState('');
   const [leedFormMessage, setLeedFormMessage] = useState('');
 
   const handleClick = (e) => {
+    console.log("wpp", wpp, "instagram", instagram)
     e.preventDefault();
     return axios
-      .post('https://localhost.../', {
+      .post(`http://localhost:8001/${path}/register`, {
         name,
         email,
+        tel: wpp,
+        url: instagram,
       })
       .then((res) => {
         if (!res) return setLeedFormMessage('Something went wrong =(');
@@ -26,6 +29,12 @@ function LeedForm() {
         return setLeedFormMessage('Something went wrong =(');
       })
   }
+
+  const isDisabled = () => {
+    const emailTest = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
+    if (wpp.length === 11 && email.match(emailTest) && /^[0-9]+$/.test(wpp)) return false;
+    return true;
+  };
 
   return (
     <section id='leedForm' className='leedForm-container'>
@@ -79,6 +88,7 @@ function LeedForm() {
             onClick={(e) => handleClick(e)}
             className="leedForm-send-button"
             type="button"
+            disabled={isDisabled()}
             >
             Send
           </button>
