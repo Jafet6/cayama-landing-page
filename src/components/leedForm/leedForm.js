@@ -73,6 +73,7 @@ function LeedForm({ path }) {
               onChange={(e) => setWpp(e.target.value)}
               className="leedForm-input"
               type="text"
+              maxlength="11"
               placeholder="WhatsApp"
             />
             <input
