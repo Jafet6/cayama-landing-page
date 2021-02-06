@@ -25,14 +25,13 @@ function LeedForm({ path }) {
         return setLeedFormMessage('Your request was received =)');
       })
       .catch((err) => {
-        console.log(err);
-        return setLeedFormMessage('Something went wrong =(');
+        console.log(err.response.data);
+        return setLeedFormMessage(err.response.data);
       })
   }
 
   const isDisabled = () => {
-    const emailTest = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
-    if (wpp.length === 11 && email.match(emailTest) && /^[0-9]+$/.test(wpp)) return false;
+    if (email != '' && email != '' && wpp != '' && instagram != '') return false;
     return true;
   };
 
