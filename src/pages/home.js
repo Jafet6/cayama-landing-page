@@ -95,7 +95,8 @@ function HomePage() {
               reverse={true}
             /> */}
             <VideoLogo />
-            <LeedForm path={'Influencer'}/>
+            {/* <LeedForm path={'Influencer'}/> */}
+            <LeedForm path={'Lojista'}/>
             <Footer />
           </div>
         </main>
