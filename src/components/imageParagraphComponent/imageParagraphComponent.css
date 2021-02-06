@@ -21,6 +21,9 @@
 
 .image-paragraph-description {
   margin: 0 0 0 60px;
+  background-color: #cfcfcf;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 .orange-p {
@@ -60,7 +63,7 @@
     align-items: center;
     /* margin-top: 20px; */
     margin: 20px 0px 0px 0px;
-    width: 100vw;
+    width: 90vw;
   }
 
   .image-paragraph-icon {
