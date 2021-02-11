@@ -12,8 +12,10 @@ function LeedForm({ path }) {
   const handleClick = (e) => {
     console.log("wpp", wpp, "instagram", instagram)
     e.preventDefault();
+    const prodAPI = `https://api-landingpage.cayama.com.br/${path}/register`;
+    const testAPI = `http://localhost:8001/${path}/register`
     return axios
-      .post(`http://localhost:8001/${path}/register`, {
+      .post(prodAPI, {
         name,
         email,
         tel: wpp,
@@ -31,7 +33,7 @@ function LeedForm({ path }) {
   }
 
   const isDisabled = () => {
-    if (email != '' && email != '' && wpp != '' && instagram != '') return false;
+    if (email !== '' && email !== '' && wpp !== '' && instagram !== '') return false;
     return true;
   };
 

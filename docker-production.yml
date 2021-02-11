@@ -1,4 +1,4 @@
-version: "3.3"
+version: "3.7"
 
 services:
   traefik:
@@ -23,12 +23,21 @@ services:
     networks:
       - web
 
-  app:
+  project:
+    container_name: dockerized-react-app
+
+    build:
+      context: .
+      dockerfile: Dockerfile-prod
+
+    ports:
+      - '3001:80'
+
     networks:
       - web
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.whoami.rule=Host(`api-landingpage.cayama.com.br`)"
+      - "traefik.http.routers.whoami.rule=Host(`landingpage.cayama.com.br`)"
       - "traefik.http.routers.whoami.entrypoints=web"
       
 
